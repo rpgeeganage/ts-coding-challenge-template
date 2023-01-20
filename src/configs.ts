@@ -13,4 +13,3 @@ if (!parsedConfig.success) {
 
 export const Configs = parsedConfig.data;
 export type ConfigsType = z.input<typeof envSchema>;
-
