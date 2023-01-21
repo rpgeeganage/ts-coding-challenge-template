@@ -34,7 +34,7 @@ npm run build       # Build project
 npm t               # Run tests
 npm start           # Run the app.
 npm run lint        # Run lint
-npm run fix:ling    # Fix lint issues
+npm run fix:lint    # Fix lint issues
 ```
 
 ## Make file
