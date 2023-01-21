@@ -1,4 +1,12 @@
 # for your information
+## Packages already included are as follows.
+1. Express
+2. ZOD
+3. Axios
+4. Jest
+5. ESlint
+6. Prettier
+7. Husky
 
 ## Config
 
