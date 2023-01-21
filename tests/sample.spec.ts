@@ -1,5 +1,5 @@
 describe('Sample test', () => {
   it('sample test', () => {
-    console.log('test');
+    expect(true).toBeTruthy();
   });
 });

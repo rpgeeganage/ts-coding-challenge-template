@@ -5,7 +5,7 @@ services:
       context: .
     container_name: my-task
     env_file:
-      - ._env
+      - docker_env.env
     command: tail -f /dev/null
     volumes:
       - .:/app

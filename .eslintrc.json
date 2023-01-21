@@ -5,8 +5,7 @@
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript",
-    "plugin:jest/recommended"
+    "plugin:import/typescript"
   ],
   "settings": {
     "import/resolver": {
@@ -18,5 +17,43 @@
     "node": true,
     "mocha": true
   },
-  "plugins": ["@typescript-eslint", "import", "prettier", "jest"]
+  "plugins": ["@typescript-eslint", "import", "prettier", "jest", "unused-imports", "unicorn"],
+  "rules": {
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": ["expect"]
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { "order": "asc", "caseInsensitive": false },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "newlines-between": "always"
+      }
+    ],
+    "require-await": "error",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+    ],
+    "unicorn/no-abusive-eslint-disable": ["error"],
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "kebabCase"
+      }
+    ]
+  }
 }
