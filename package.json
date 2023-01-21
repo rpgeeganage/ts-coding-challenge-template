@@ -43,6 +43,7 @@
     "src": "build/src"
   },
   "lint-staged": {
-    "*.ts": "eslint --cache --fix"
+    "*.ts": "eslint --cache --fix",
+    "*.{js, md}": "prettier --write"
   }
 }
