@@ -4,9 +4,10 @@
 2. ZOD
 3. Axios
 4. Jest
-5. ESlint
-6. Prettier
-7. Husky
+5. Supertest
+6. ESlint
+7. Prettier
+8. Husky
 
 ## Config
 
