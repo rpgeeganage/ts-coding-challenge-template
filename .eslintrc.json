@@ -5,7 +5,8 @@
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:package-json/recommended"
   ],
   "settings": {
     "import/resolver": {
@@ -17,7 +18,15 @@
     "node": true,
     "mocha": true
   },
-  "plugins": ["@typescript-eslint", "import", "prettier", "jest", "unused-imports", "unicorn"],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "jest",
+    "unused-imports",
+    "unicorn",
+    "package-json"
+  ],
   "rules": {
     "jest/expect-expect": [
       "error",
