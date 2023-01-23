@@ -1,4 +1,5 @@
-# Starter project for next `Take Home` coding challenge.
+# A starter project for your next `Take Home` coding challenge. (Typescript + Nodejs)
+
 ### (Since there are lot of layoffs around the world) 
 
 ### for your information
