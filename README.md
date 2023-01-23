@@ -1,4 +1,7 @@
-# for your information
+# Starter project for next `Take Home` coding challenge.
+### (Since there are lot of layoffs around the world) 
+
+### for your information
 
 ## You can use this with `Docker`.
 
