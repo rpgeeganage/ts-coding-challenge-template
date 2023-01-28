@@ -1,12 +1,13 @@
 # A starter project for your next `Take Home` coding challenge. (Typescript + Nodejs)
 
-### (Since there are lot of layoffs around the world) 
+### (Since there are lot of layoffs around the world)
 
 ### for your information
 
 ## You can use this with `Docker`.
 
 ## Packages already included are as follows.
+
 1. Express
 2. ZOD
 3. Axios
@@ -48,7 +49,8 @@ npm run fix:lint    # Fix lint issues
 
 ```sh
 make install    # Install dependencies
-make up         # Run service in the background
+make up         # Run service
+make upd        # Run service in the background
 make cmd        # Run the service and connect to the `bash`
 make down       # Tear down the service
 make clean      # Clean containers in `exited` status.
