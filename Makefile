@@ -1,5 +1,5 @@
 DOCKER_COMPOSE		:= ./docker-compose.yml
-PROJECT_NAME		:= MY_TASK
+PROJECT_NAME		:= my-task
 SERVICE_NAME		:= my-task
 
 install: 
@@ -7,6 +7,9 @@ install:
 
 up:
 	docker-compose -p ${PROJECT_NAME} -f ${DOCKER_COMPOSE} up --abort-on-container-exit --exit-code-from ${SERVICE_NAME}
+
+upd:
+	docker-compose -p ${PROJECT_NAME} -f ${DOCKER_COMPOSE} up -d ${SERVICE_NAME}
 
 cmd:
 	docker-compose -p ${PROJECT_NAME} -f ${DOCKER_COMPOSE} exec ${SERVICE_NAME} /bin/sh
