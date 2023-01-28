@@ -1,7 +1,7 @@
 ############
 # Base image
 ############
-FROM node:16.16.0-alpine as base-image
+FROM node:18.13.0-alpine as base-image
 
 WORKDIR /app
 
