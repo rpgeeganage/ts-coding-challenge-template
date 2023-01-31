@@ -1,3 +1,6 @@
+import 'module-alias/register';
+import 'source-map-support/register';
+
 import express from 'express';
 
 import { Configs } from 'src/configs';
